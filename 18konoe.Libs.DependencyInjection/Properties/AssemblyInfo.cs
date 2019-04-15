@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("18konoe.Libs.DependencyInjection")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This Library is a Dependency Injection Container for Constructor Injection.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Konoe Studio")]
 [assembly: AssemblyProduct("18konoe.Libs.DependencyInjection")]

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>18konoe.Libs.DependencyInjection</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Juhachi Konoe</authors>
+    <owners>Juhachi Konoe</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/18konoe/18konoe.Libs.DependencyInjection</projectUrl>
+    <iconUrl>https://github.com/18konoe.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright Juhachi Konoe 2019</copyright>
+    <tags>DependencyInjection</tags>
+  </metadata>
+</package>
