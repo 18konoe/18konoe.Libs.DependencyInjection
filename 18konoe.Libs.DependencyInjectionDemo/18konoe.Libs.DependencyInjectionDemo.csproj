@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1213AF78-A45A-41A3-8A41-FBDFA69463D8}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_18konoe.Libs.DependencyInjection</RootNamespace>
-    <AssemblyName>18konoe.Libs.DependencyInjection</AssemblyName>
+    <ProjectGuid>{D1994243-406E-47DB-B90D-DAD6E026491A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_18konoe.Libs.DependencyInjectionDemo</RootNamespace>
+    <AssemblyName>18konoe.Libs.DependencyInjectionDemo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -30,37 +32,26 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="18konoe.Libs.DependencyInjection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\18konoe.Libs.DependencyInjection.1.0.0\lib\net461\18konoe.Libs.DependencyInjection.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DiArchitect.cs" />
-    <Compile Include="DiArgumentInfo.cs" />
-    <Compile Include="DiBlueprint.cs" />
-    <Compile Include="DiManufacturer.cs" />
-    <Compile Include="DiSupplier.cs" />
-    <Compile Include="DiSupplierFactory.cs" />
-    <Compile Include="DiVendor.cs" />
-    <Compile Include="EnumerableExtensions.cs" />
-    <Compile Include="Interface\IDiArchitect.cs" />
-    <Compile Include="Interface\IDiArgumentInfo.cs" />
-    <Compile Include="Interface\IDiBlueprint.cs" />
-    <Compile Include="Interface\IDiManufacturer.cs" />
-    <Compile Include="Interface\IDiSupplier.cs" />
-    <Compile Include="Interface\IDiSupplierFactory.cs" />
-    <Compile Include="Interface\IDiVendor.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="18konoe.Libs.DependencyInjection.nuspec" />
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18konoe.Libs.DependencyInje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18konoe.Libs.DependencyInjectionStub", "18konoe.Libs.Stub\18konoe.Libs.DependencyInjectionStub.csproj", "{827B2324-0F45-41C9-88BB-1C998634FC0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18konoe.Libs.DependencyInjectionDemo", "18konoe.Libs.DependencyInjectionDemo\18konoe.Libs.DependencyInjectionDemo.csproj", "{D1994243-406E-47DB-B90D-DAD6E026491A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{827B2324-0F45-41C9-88BB-1C998634FC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{827B2324-0F45-41C9-88BB-1C998634FC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{827B2324-0F45-41C9-88BB-1C998634FC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1994243-406E-47DB-B90D-DAD6E026491A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1994243-406E-47DB-B90D-DAD6E026491A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1994243-406E-47DB-B90D-DAD6E026491A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1994243-406E-47DB-B90D-DAD6E026491A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
