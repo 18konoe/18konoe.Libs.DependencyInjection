@@ -16,6 +16,9 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <RepositoryUrl>https://github.com/18konoe/18konoe.Libs.DependencyInjection</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Support .NET Standard 2.0</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
