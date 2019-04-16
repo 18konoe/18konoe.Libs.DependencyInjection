@@ -5,7 +5,6 @@ using System.Data;
 using System.Linq;
 using System.Reflection;
 using _18konoe.Libs.DependencyInjection.Interface;
-using _18konoe.Libs.Extension;
 
 namespace _18konoe.Libs.DependencyInjection
 {

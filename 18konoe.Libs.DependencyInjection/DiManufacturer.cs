@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using _18konoe.Libs.DependencyInjection.Interface;
-using _18konoe.Libs.Extension;
 
 namespace _18konoe.Libs.DependencyInjection
 {

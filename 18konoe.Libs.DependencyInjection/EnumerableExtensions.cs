@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _18konoe.Libs.Extension
+namespace _18konoe.Libs.DependencyInjection
 {
     public static class EnumerableExtensions
     {
