@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Company>Konoe Studio</Company>
+    <Authors>Juhachi Konoe</Authors>
+    <Copyright>Copyright © Juhachi Konoe 2019</Copyright>
+    <Description>This Library is a Dependency Injection Container for Constructor Injection.</Description>
+    <PackageIconUrl>https://github.com/18konoe.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/18konoe/KonoeStudio.Libs.DependencyInjection</PackageProjectUrl>
+    <PackageTags>Dependency-Injection; Microsoft.Extensions.DependencyInjection; DI; IoC</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <RepositoryUrl>https://github.com/18konoe/KonoeStudio.Libs.DependencyInjection</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Move namespace. More easy append argument for DiBlueprint. Add Dispose method in DiVendor to all instance dispose</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
