@@ -12,6 +12,10 @@ https://www.nuget.org/packages/KonoeStudio.Libs.DependencyInjection/
 ## Demo
 There is Demo project in [KonoeStudio.Demo.DependencyInjection](https://github.com/18konoe/KonoeStudio.Demo.DependencyInjection)
 
+## For Japanese
+日本語での使い方説明はブログにあります。
+https://konoe.studio/how-to-use-my-di-container/
+
 ## Quick Tutorial
 
 ```csharp
